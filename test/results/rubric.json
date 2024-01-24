@@ -1,0 +1,159 @@
+{
+  "items": {
+    "1.1": {
+      "id": "1.1",
+      "rowId": 1,
+      "title": "No API keys in repo",
+      "learner_prompt": "",
+      "helptext": "",
+      "graded_assertion": "",
+      "err": {},
+      "Status": ""
+    },
+    "1.2": {
+      "id": "1.2",
+      "rowId": 2,
+      "title": "Tests provided for grading pass completely.",
+      "learner_prompt": "",
+      "helptext": "",
+      "graded_assertion": "",
+      "err": {},
+      "Status": ""
+    },
+    "1.3": {
+      "id": "1.3",
+      "rowId": 3,
+      "title": "Sign up navigation works",
+      "learner_prompt": "Maintain all of the site's existing pages and navigation.",
+      "helptext": "Make sure you can reach the leaderboard and signup pages directly from the /signup URL.",
+      "graded_assertion": "",
+      "err": {},
+      "Status": ""
+    },
+    "1.4": {
+      "id": "1.4",
+      "rowId": 4,
+      "title": "Leaderboard navigation works",
+      "learner_prompt": "Maintain all of the site's existing pages and navigation.",
+      "helptext": "Make sure you can reach the leaderboard and signup pages directly from the /leaderboard URL.",
+      "graded_assertion": "",
+      "err": {},
+      "Status": ""
+    },
+    "1.5": {
+      "id": "1.5",
+      "rowId": 5,
+      "title": "Email address and display name are required fields.",
+      "learner_prompt": "The fan is required to add an email and display name to be assigned a Payment Link.",
+      "helptext": "Make sure the email and display name are required fields.",
+      "graded_assertion": "",
+      "err": {},
+      "Status": ""
+    },
+    "1.6": {
+      "id": "1.6",
+      "rowId": 6,
+      "title": "Email address is in the correct format.",
+      "learner_prompt": "The fan email address should be validated.",
+      "helptext": "Make sure only valid email addresses can be submitted to the form.",
+      "graded_assertion": "",
+      "err": {},
+      "Status": ""
+    },
+    "1.7": {
+      "id": "1.7",
+      "rowId": 7,
+      "title": "Show an error if the email is invalid.",
+      "learner_prompt": "Display an error message if the email is invalid",
+      "helptext": "Make sure an error is shown if the email address isn't valid.",
+      "graded_assertion": "",
+      "err": {},
+      "Status": ""
+    },
+    "1.8": {
+      "id": "1.8",
+      "rowId": 8,
+      "title": "'Get Seller Link' is disabled when form is submitted",
+      "learner_prompt": "The signup button should be disabled when the fan submits their details.",
+      "helptext": "Make sure the 'Get Seller Link' button is disabled when info has been submitted.",
+      "graded_assertion": "",
+      "err": {},
+      "Status": ""
+    },
+    "1.9.1": {
+      "id": "1.9.1",
+      "rowId": 9,
+      "title": "Validate the Product and Price Setup",
+      "learner_prompt": "",
+      "helptext": "",
+      "graded_assertion": "",
+      "err": {},
+      "Status": ""
+    },
+    "1.9.2": {
+      "id": "1.9.2",
+      "rowId": 10,
+      "title": "'Get Seller Link' should create a new Payment Link and display a new component with the copyable link",
+      "learner_prompt": "A Payment Link should be created for a new fan signup.",
+      "helptext": "Make sure a Payment Link is displayed after a fan signs up.",
+      "graded_assertion": "",
+      "err": {},
+      "Status": ""
+    },
+    "1.10": {
+      "id": "1.10",
+      "rowId": 11,
+      "title": "Show the Payment Link if the display name exists already.",
+      "learner_prompt": "If a fan enters a display name that exists already, display their Payment Link.",
+      "helptext": "Make sure the existing Payment Link is reveled if the fan enters an existing display name.",
+      "graded_assertion": "",
+      "err": {},
+      "Status": ""
+    },
+    "1.11": {
+      "id": "1.11",
+      "rowId": 12,
+      "title": "Payment Link has the fan's username and email as the metadata",
+      "learner_prompt": "The newly created Payment Link resource should have metadata attached to it: 'fan_email' and 'fan_name'.",
+      "helptext": "Make sure the created Payment Link has correct metadata fields.",
+      "graded_assertion": "",
+      "err": {},
+      "Status": ""
+    },
+    "2.1": {
+      "id": "2.1",
+      "rowId": 13,
+      "title": "GET endpoint for retrieving the server's list of purchases",
+      "learner_prompt": "The Leaderboard page should be populated after data loads.",
+      "helptext": "Make sure the leaderboard is displayed after the data loads.",
+      "graded_assertion": "",
+      "err": {},
+      "Status": ""
+    },
+    "2.2": {
+      "id": "2.2",
+      "rowId": 14,
+      "title": "Fan sale totals are calculated correctly",
+      "learner_prompt": "The /leaderboard endpoint should total each fan's sales.",
+      "helptext": "Make sure the leaderboard has the total sales per fan.",
+      "graded_assertion": "",
+      "err": {},
+      "Status": ""
+    },
+    "2.3": {
+      "id": "2.3",
+      "rowId": 15,
+      "title": "Leaderboard is ordered greatest-to-least",
+      "learner_prompt": "The Leaderboard should be ordered from greatest-to-least with the fan with the most sold on top.",
+      "helptext": "Make sure the leaderboard is ordered correctly.",
+      "graded_assertion": "",
+      "err": {},
+      "Status": ""
+    }
+  },
+  "labName": "Associate Developer Challenge",
+  "sequences": [
+    "milestone1.spec.ts",
+    "milestone2.spec.ts"
+  ]
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>The Afrobeatles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Afrobeatles" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/global.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
+    <script src="js/signup.js" type="module"></script>
+  </head>
+
+  <body>
+    <main class="main-global">
+      <div class="header">
+        <div class="banner">
+          <span class="banner-stripe banner-red"></span>
+          <span class="banner-stripe banner-yellow"></span>
+          <span class="banner-stripe banner-green"></span>
+        </div>
+        <div class="title"><a href="/">The Afrobeatles</a></div>
+        <div class="subheader">Become A Seller</div>
+      </div>
+      <div class="seller-form">
+        <div class="seller-desc" id="form-div">
+          <div class="seller-grid">
+            <div class="home-body">
+              <p>Once the form is submitted, you will receive your own personal
+              link to share. The top seller of the week will receive free
+              tickets to the next Afrobeatles concert!
+              </p>
+            </div>
+            <div class="seller-inputs">
+              <div class="seller-input-box">
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Email Address"
+                />
+              </div>
+              <div class="seller-input-box">
+                <input
+                  type="text"
+                  id="username"
+                  placeholder="Display Name"
+                  className="pmlink-input"
+                />
+              </div>
+              <div class="username-help-text">
+                This is what will be displayed on the leaderboard
+              </div>
+              <div class="paymentlink-error" id="paymentlink-error">
+                <p></p>
+              </div>
+            </div>
+            <div class="button-center">
+              <button id="submit" class="button">
+                Get Seller Link
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Hidden on initial display and shows -->
+        <div class="signup-complete" id="paymentlink-wrapper">
+          Copy your personal link below to share on your socials.
+          <div class="payment-link-section">
+            <span class="payment-link" id="payment-link"></span>
+            <span class="copy-button" id="copy-button">
+              <img src="/assets/img/copyicon.png" alt="Copy Payment Link" class="copy-img"/>
+            </span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>Check out some of our favorite playlists on <a target="_blank" href="https://music.apple.com/us/playlist/afrobeats-hits/pl.dc349df19c6f410d874c197db63ecfed">Apple Music</a>,
+        <a target="_blank" href="https://audiomack.com/audiomack-africa/playlist/verified-afrobeats">Audiomack</a>,
+        <a target="_blank" href="https://www.boomplay.com/playlists/24262447">Boomplay</a>, &amp;
+        <a target="_blank" href="https://open.spotify.com/playlist/37i9dQZF1DWWHMKZF8dZSb">Spotify</a>!</p>
+    </footer>
+  </body>
+</html>

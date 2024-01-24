@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>The Afrobeatles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Afrobeatles" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/global.css" />
+    <script src="js/leaderboard.js" type="module"></script>
+  </head>
+
+  <body>
+    <main class="main-global">
+      <div class="header">
+        <div class="banner">
+          <span class="banner-stripe banner-red"></span>
+          <span class="banner-stripe banner-yellow"></span>
+          <span class="banner-stripe banner-green"></span>
+        </div>
+        <div class="title"><a href="/">The Afrobeatles</a></div>
+        <div class="subheader">Top Fans</div>
+      </div>
+      <div class="spinner" id="spinner"></div>
+      <div id="top-seller-summary" class="top-seller-summary">
+        <div class="summary-content">
+          <div id="summary-table" class="summary-table">
+            <div class="summary-header-row">
+              <div id="header-row" class="summary-header-name">
+                Fan
+              </div>
+              <div class="summary-header-sale">Sales</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>Check out some of our favorite playlists on <a target="_blank" href="https://music.apple.com/us/playlist/afrobeats-hits/pl.dc349df19c6f410d874c197db63ecfed">Apple Music</a>,
+        <a target="_blank" href="https://audiomack.com/audiomack-africa/playlist/verified-afrobeats">Audiomack</a>,
+        <a target="_blank" href="https://www.boomplay.com/playlists/24262447">Boomplay</a>, &amp;
+        <a target="_blank" href="https://open.spotify.com/playlist/37i9dQZF1DWWHMKZF8dZSb">Spotify</a>!</p>
+    </footer>
+  </body>
+  <template id="seller-summary">
+    <div class="summary-row">
+      <div class="summary-name">
+      </div>
+      <div key={amount} class="summary-sale">
+      </div>
+    </div>
+  </template>
+</html>
+
